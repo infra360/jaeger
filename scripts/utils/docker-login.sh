@@ -13,5 +13,5 @@ QUAY_TOKEN=${QUAY_TOKEN:-}
 echo "Performing a 'docker login' for DockerHub"
 echo "${DOCKERHUB_TOKEN}" | docker login -u "${DOCKERHUB_USERNAME}" docker.io --password-stdin
 
-echo "Performing a 'docker login' for Quay"
-echo "${QUAY_TOKEN}" | docker login -u "${QUAY_USERNAME}" quay.io --password-stdin
+# echo "Performing a 'docker login' for Quay"
+# echo "${QUAY_TOKEN}" | docker login -u "${QUAY_USERNAME}" quay.io --password-stdin
